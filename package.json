@@ -1,0 +1,22 @@
+{
+  "name": "truste",
+  "version": "1.0.0",
+  "description": "Jogo Multiplayer em turnos feito em Elm",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andridus/truste.git"
+  },
+  "author": "Helder Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andridus/truste/issues"
+  },
+  "homepage": "https://github.com/andridus/truste#readme"
+}

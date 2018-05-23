@@ -1,0 +1,450 @@
+html{
+	background-color: #1D9869;
+	height:100%;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.button-pos-opts{
+	top:60px;
+	width: 120px;
+	position: fixed;
+	left: 50%;
+	transform : translateX(-50%);
+}
+.topbar-vez{
+	background: #EB6F6F!important;
+}
+.elm-overlay{
+	/*display: none;*/
+}
+.finaliza-jogada{
+	background-color: #F9674E;
+	color: #FFF;
+	margin-right: 5px;
+
+}
+.na-peca{
+	/*background: #FF0000!important;*/
+}
+.buttons-game {
+	position: fixed;
+	bottom:160px;
+}
+.buttons-game .button-audio{
+	padding:15px;
+	cursor: pointer;
+}
+.buttons-game .button-audio:hover{
+	padding:15px;
+	color:#794242;
+}
+.finaliza-jogada:hover{
+	background-color: #9E1000!important;
+	color: #FFF!important;
+	text-decoration: none;
+}
+.cartel-money{
+	background-color: #3BE280;
+	color: #FFF;
+
+}
+.cartel-money:hover{
+	background-color: #2EAE63!important;
+	color: #FFF!important;
+	text-decoration: none;
+}
+.buttons{
+	text-align: center;
+}
+.elm-overlay{
+	z-index:250000;
+}
+.dialogo-bg-all{
+	position: absolute;
+	z-index: 15000;
+	background-color: #33333344;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	left:0px;
+}
+.label-cc{
+	float: left;
+	font-size:10px;
+}
+.peca-cc{
+	float:left;
+	width: 30px;
+	text-align: center;
+	padding:9px 5px;
+	margin: 5px;
+	font-size:12px;
+	background: #C2C2C2;
+}
+.acoezinhas{
+	float:left;
+	width: 25px;
+	padding:5px;
+	margin: 5px;
+}
+.acoezinhas img{
+	width: 25px;
+}
+.acoezinhas1{
+	float:left;
+	width: 30px;
+	padding:5px;
+	margin: 5px;
+	cursor: pointer
+}
+.acoezinhas1 img{
+	width: 30px;
+}
+.dialogo-minimizado{
+	bottom: 0px;
+	position: fixed;
+	z-index: 15000;
+	padding:15px 10px;
+	font-size:14px;
+	left: 0px;
+	background-color: #FFF;
+	border: 1px solid #000;
+	border-bottom: 0px;
+	cursor: pointer
+}
+.dialogo{
+	top: 0px;
+	position: fixed;
+	padding:15px;
+	z-index: 15000;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 100%;
+}
+.dialogo-con{
+	position: absolute;
+	z-index: 2;
+	padding: 10px;
+	top: 0px;
+	left:0px;
+}
+.dialogo-bg{
+	position: absolute;
+	z-index: 1;
+	background-color: #FFFFFFFF;
+	top: 0px;
+	left:0px;
+}
+.sair_do_jogo{
+	position: absolute;
+	bottom: 120px;
+}
+.dialogo-titulo {
+	font-weight: bold;
+}
+.dialogo-conteudo{
+	overflow-y: auto;
+}
+.dialogo-conteudo> div{
+	padding:5px;
+}
+.avatar-choose{
+	width: 80px;
+	margin:5px;
+	border: 1px solid transparent;
+}
+.empresa-choose{
+	width: 90px;
+	margin:5px;
+	border: 1px solid transparent;
+	float:left;
+	text-align: center;
+	border:1px solid #000;
+	padding: 5px;
+}
+.empresa-choose:hover{
+	border-color: #348CE1;
+	background-color: #A2CCF0;
+	cursor: pointer;
+}
+.empresa-choose-peso{
+	font-size:20px;
+	font-weight: bold;
+
+}
+.avatar-choose:hover{
+	width: 80px;
+	margin:5px;
+	border: 1px solid #5EA0D8;
+	cursor: pointer;
+}
+.jogadores-na-tela{
+	position: fixed;
+	top: 60px;
+	z-index:5000;
+	list-style: none;
+	margin-left:0px!important;
+	padding-left:0px!important;
+}
+.jogador-na-tela{
+	padding: 5px;
+	background-color: #FFFFFFDD;
+}
+.jogador-na-tela img{
+	width: 40px;
+}
+.jogador-vez{
+	background: #DD1212;
+}
+.empresas-na-tela{
+	position: fixed;
+	right: 10px;
+	top: 80px;
+	z-index: 1000;
+}
+.empresa-na-tela{
+	padding: 2px;
+	position: relative;
+}
+.acao-label{
+	position: absolute;
+	left:-20px;
+	text-align: right;
+	font-size: 20px;
+	color: #000;
+	text-shadow: 0px 0px 2px #fff;
+	font-weight: bold
+}
+.empresa-na-tela img{
+	width: 30px;
+}
+.empresa-disponivel img{
+	opacity: 0.4;
+}
+.empresa-nao-disponivel img{
+	opacity: 1;
+}
+.pecas-na-tela{
+	position: fixed;
+	bottom: 0px;
+	padding: 0px;
+	margin: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 5500;
+
+}
+.peca-na-tela{
+	float: left;
+	padding: 25px 0px;
+	font-size:20px;
+	background-color: #A6BBD7;
+	font-weight: bold;
+	color: #000;
+	border: 1px solid #0A0A0A;
+	height: 100px;
+	width: 60px;
+	text-align: center;
+	display: block;
+
+}
+.peca-na-tela:hover{
+	background-color: #6E8DB7;
+	color: #000;
+	cursor: pointer;
+	border: 1px solid #430000;
+
+}
+.peca-board-base {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.peca-board-base-overlay {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+}
+
+.peca-hover{
+	background-color: #ECECDC99
+}
+.peca-jogador{
+	background-color: #B9B9B9
+}
+.np{
+  pointer-events: none;
+  cursor: default;
+}
+.is-gray{
+  background: rgba(0, 0, 0, 0.5)!important;
+  color: #fff;
+}
+.table{
+	background-color: transparent;
+}
+.table td, th{
+   transition:all 0.2s;
+   padding: 0px;
+   position: relative;
+  }
+
+.table tr:hover{
+background-color:transparent;
+}
+.nav-cartel-topbar{
+	position: fixed;
+	width: 100%;
+	top:0px;
+}
+
+.sala{
+ border: 1px solid transparent;
+ float: left;
+ margin: 5px;
+}
+.sala:hover{
+ border: 1px solid #761C1CFF;
+ background: #F4F4F43E;
+ cursor: pointer
+}
+.iniciado{
+	cursor:none;
+	opacity:0.5;
+	border: 1px solid #F03838FF;
+}
+
+.cartel-tile:hover{
+background-color: rgba(176, 202, 240,0.3);
+}
+.cartel-main{
+padding:20px;
+}
+.cartel-board{
+}
+.empresa-logo{
+float: left;
+}
+.empresa-acoes{
+float: left;
+padding: 5px;
+}
+.piece-on-board{
+ background:rgb(146, 194, 192);
+ text-align:center;
+ vertical-align:middle;
+ color: #fff;
+ text-shadow:0px 0px 3px #000;
+}
+.piece-on-board-hover{
+ background:rgb(89, 147, 144)!important;
+}
+.piece{
+ background:rgb(146, 194, 192);
+ text-align:center;
+ height:80px;
+ display:block;
+ width:50px;
+ font-size:15px;
+ padding:2px;
+ color: #000;
+ text-shadow:0px 0px 3px #000;
+ margin:1px;
+ cursor: pointer;
+ border: 1px solid rgb(80, 80, 82);
+
+}
+.vez{
+	border:4px dashed #FF0004FF ;
+	height: 100%;
+	width:100%;
+	position:fixed;
+	pointer-events: none;
+  	cursor: default;
+  	z-index: 500
+
+}
+.aguarde{
+	background-color: #B0FFF40A;
+	text-align:center;
+	vertical-align: middle;
+	font-weight: bold;
+	color:#5D5D5DFF;
+
+	height: 100%;
+	width:100%;
+	position:fixed;
+	pointer-events: none;
+  	cursor: default;
+  	z-index: 500
+
+}
+.piece:hover{
+background:rgb(69, 191, 186);
+}
+.cartel-board{
+margin-bottom: 80px;
+}
+.is-simulate-hover{
+background-color:rgb(228, 235, 229)
+}
+.is-el-simulate-hover[empty="false"]{
+background-color:rgb(189, 196, 190)!important;
+}
+.is-simulate-on-board-hover[empty="false"]{
+background-color:rgb(89, 147, 144)!important
+}
+.is-el-simulate-on-board-hover[empty="false"]{
+background-color:rgb(73, 124, 121)!important;
+}
+.is-hover[empty="true"]{
+background-color:rgba(252, 218, 217, 0.31)
+}
+.is-hover[empty="false"]{
+background-color:rgba(163, 198, 192, 0.66)
+}
+.is-el-hover[empty="true"]{
+background-color:rgba(252, 212, 212, 0.31)
+}
+.is-el-hover[empty="false"]{
+background-color:rgba(99, 143, 135, 0.66)
+}
+.card-empresa{
+width: 60px;
+border: 1px solid rgb(252, 252, 252);
+height: 100px;
+float: left;
+margin: 5px;
+cursor: pointer;
+
+}
+.card-empresa:hover{
+border:1px solid rgb(74, 8, 16);
+}
+.empresa-title{
+color: #FFF;
+text-shadow:0px 0px 3px #000;
+font-size:12px;
+}
+.empresa-price{
+color: #ffffff;
+text-shadow:0px 0px 3px #000;
+font-size:18px;
+text-align:center;
+font-weight:bold;
+}
+.cartel-pieces{
+-webkit-user-select: none;  /* Chrome all / Safari all */
+-moz-user-select: none;     /* Firefox all */
+-ms-user-select: none;      /* IE 10+ */
+user-select: none; 
+}
+.nav-cartel-topbar{
+	background-color: red
+}

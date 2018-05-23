@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg6214"
+   height="205"
+   width="205"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="grass_solo_emp_6.svg">
+  <defs
+     id="defs107" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="956"
+     inkscape:window-height="1041"
+     id="namedview105"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="328.59833"
+     inkscape:cy="193.80273"
+     inkscape:window-x="960"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g5061"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="102.55258,51.773475"
+       id="guide3295" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="102.38672,51.597656"
+       id="guide3297" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata6219">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g5061"
+     transform="matrix(1.0002665,0,0,1.0002665,-13.170999,-693.66199)">
+    <path
+       id="path32829"
+       style="opacity:0.63103452;fill:#6bda5f;fill-opacity:0.98431373;fill-rule:nonzero;stroke:none"
+       d="M 218.11193,787.43774 115.44318,728.25906 12.943181,787.43774 115.52693,846.66288 218.11193,787.43774"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
